@@ -85,7 +85,7 @@ nav {
 
 /* section new task */
 
-.new_task {
+section {
     margin-top: 50px;
 }
 
@@ -120,3 +120,7 @@ h2 {
 #editorial {
     background-color: #47adf1;
 }
+
+/* fine sezione new task */
+
+/* sezione today */

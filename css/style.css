@@ -23,15 +23,21 @@ header {
     height: 100px;
     background-color: white;
     margin-bottom: 50px;
+    position: relative;
 }
 
 h1 {
     display: inline-block;
     font-size: 3em;
+    position: absolute;
+    top: 22px;
 }
 
 #logo {
     width: 70px;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 10px;
 }
 
 /*fine Header */

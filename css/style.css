@@ -1,0 +1,33 @@
+/* Reset */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header */
+
+header {
+    height: 100px;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 3em;
+}
+
+#logo {
+    width: 70px;
+}
+
+/*fine Header */
+
+/* DA FIXARE */
+
+
+
+
+
+

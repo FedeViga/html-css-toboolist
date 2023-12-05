@@ -89,6 +89,10 @@ section {
     margin-top: 50px;
 }
 
+.voice {
+    margin-bottom: 20px;
+}
+
 h2 {
     margin-top: 20px;
     margin-bottom: 10px;
@@ -124,3 +128,25 @@ h2 {
 /* fine sezione new task */
 
 /* sezione today */
+
+.crossmark {
+    display: inline-block;
+    color: red;
+    border: 1px solid red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+#q1_goals {
+    background-color: #9c72e4;
+}
+
+#recruiting {
+    background-color: #64c0a9;
+}
+
+#mobile {
+    background-color: #f29e33;
+}

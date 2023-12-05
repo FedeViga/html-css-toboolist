@@ -6,11 +6,20 @@
     padding: 0;
 }
 
+/* sfondo body */
+
+body {
+    background-color: #f6f8f9;
+}
+
+/*fine sfondo body */
+
 
 /* Header */
 
 header {
     height: 100px;
+    background-color: white;
 }
 
 h1 {
@@ -26,8 +35,50 @@ h1 {
 
 /* DA FIXARE */
 
+/* sfondo container e centratura main*/
+
+.container {
+    background-color: #f6f8f9;
+    height: 1000px;
+}
+
+main {
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/*fine sfondo container ecentratura main */
 
 
+/* nav */
 
+nav {
+    height: 50px;
+}
 
+.button {
+    display: inline-block;
+    margin-top: 16px;
+    border: 1px solid rgb(150, 150, 150);
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+}
 
+#task {
+    background-color: #47adf1;
+    color: white;
+}
+
+#section {
+    background-color: white;
+    color: rgb(150, 150, 150);
+}
+
+/* fine nav */
+
+/* DA FIXARE CENTRATURA BUTTON */

@@ -8,13 +8,15 @@
 
 /* fine reset */
 
-/* sfondo body */
+/*body */
 
 body {
     background-color: #f6f8f9;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-/*fine sfondo body */
+/*fine body */
 
 
 /* Header */

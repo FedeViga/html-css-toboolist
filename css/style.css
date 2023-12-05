@@ -82,3 +82,41 @@ nav {
 /* fine nav */
 
 /* DA FIXARE CENTRATURA BUTTON */
+
+/* section new task */
+
+.new_task {
+    margin-top: 50px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.to_do {
+    font-size: 1.2em;
+}
+
+.checkmark {
+    display: inline-block;
+    color: green;
+    border: 1px solid green;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.tag{
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 5px;
+    font-size: 0.8em;
+}
+
+#editorial {
+    background-color: #47adf1;
+}

@@ -6,6 +6,8 @@
     padding: 0;
 }
 
+/* fine reset */
+
 /* sfondo body */
 
 body {
@@ -20,6 +22,7 @@ body {
 header {
     height: 100px;
     background-color: white;
+    margin-bottom: 50px;
 }
 
 h1 {
@@ -35,29 +38,23 @@ h1 {
 
 /* DA FIXARE */
 
-/* sfondo container e centratura main*/
-
-.container {
-    background-color: #f6f8f9;
-    height: 1000px;
-}
-
-main {
-    background-color: white;
-    width: 60%;
-    margin: auto;
-    margin-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-/*fine sfondo container ecentratura main */
-
 
 /* nav */
 
 nav {
-    height: 50px;
+    height: 60px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+
+.container {
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    margin-top: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .button {
@@ -67,6 +64,8 @@ nav {
     width: 100px;
     height: 30px;
     padding: 10px;
+    border-radius: 5px;
+    text-align: center;
 }
 
 #task {
@@ -83,11 +82,19 @@ nav {
 
 /* DA FIXARE CENTRATURA BUTTON */
 
-/* section new task */
 
-section {
-    margin-top: 50px;
+/*main*/
+
+main {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
+
+/* fine main */
+
+/* section new task */
 
 .voice {
     margin-bottom: 20px;
@@ -164,3 +171,5 @@ h2 {
 #sales {
     background-color: #b0c926;
 }
+
+/* fine sezione upcoming */

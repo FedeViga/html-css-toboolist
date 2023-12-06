@@ -79,93 +79,84 @@ button {
 /* fine nav */
 
 
-/*main*/
+/* main  */
 
 main {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 40px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
 
-/* fine main */
-
-/* section new task */
-
-.voice {
-    margin-bottom: 20px;
-}
-
 h2 {
-    margin-top: 20px;
+    color: #454952;
     margin-bottom: 10px;
 }
 
-.to_do {
-    font-size: 1.2em;
+section div {
+    margin-bottom: 20px;
 }
 
-.checkmark {
+/* fine main */
+
+
+/* check e cross */
+
+.mark {
     display: inline-block;
-    color: green;
-    border: 1px solid green;
+    font-size: 0.8em;
     width: 20px;
     height: 20px;
     border-radius: 50%;
     text-align: center;
     margin-right: 7px;
+    border: 1px solid;
 }
+
+.check {
+    color: #63C0A9;
+    border-color: #63C0A9;
+}
+
+.cross {
+    color: #E9534C;
+    border: 1px solid #E9534C;
+}
+
+/* fine check e cross */
+
+/* targhette */
 
 .targhetta {
     display: inline-block;
-    padding: 5px;
-    border-radius: 5px;
+    padding: 6px 12px;
+    border-radius: 12px;
     color: white;
     margin-left: 5px;
     font-size: 0.8em;
 }
 
-#editorial {
+.editorial {
     background-color: #47adf1;
 }
 
-/* fine sezione new task */
-
-/* sezione today */
-
-.crossmark {
-    display: inline-block;
-    color: red;
-    border: 1px solid red;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    text-align: center;
-    margin-right: 7px;
-}
-
-#q1_goals {
+.q1_goals {
     background-color: #9c72e4;
 }
 
-#recruiting {
+.recruiting {
     background-color: #64c0a9;
 }
 
-#mobile {
+.mobile {
     background-color: #f29e33;
 }
 
-/* fine sezione today */
-
-/* sezione upcoming */
-
-#website {
+.website {
     background-color: #d863a1;
 }
 
-#sales {
+.sales {
     background-color: #b0c926;
 }
 
-/* fine sezione upcoming */
+/* fine targhette */

@@ -8,6 +8,7 @@
 
 /* fine reset */
 
+
 /*body */
 
 body {
@@ -22,35 +23,29 @@ body {
 /* Header */
 
 header {
-    height: 100px;
     background-color: white;
     margin-bottom: 50px;
-    position: relative;
+    padding: 20px 40px;
 }
 
 h1 {
     display: inline-block;
     font-size: 3em;
-    position: absolute;
-    top: 22px;
+    vertical-align: middle;
 }
 
 #logo {
     width: 70px;
-    margin-top: 15px;
-    margin-left: 30px;
-    margin-right: 10px;
+    vertical-align: middle;
 }
 
 /*fine Header */
-
-/* DA FIXARE */
 
 
 /* nav */
 
 nav {
-    height: 60px;
+    padding: 20px; 
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 
@@ -60,30 +55,25 @@ nav {
     background-color: white;
     width: 60%;
     margin: auto;
-    margin-top: 5px;
+    margin-bottom: 5px;
     padding-left: 50px;
     padding-right: 50px;
 }
 
-.button {
+button {
     display: inline-block;
-    margin-top: 16px;
-    border: 1px solid rgb(150, 150, 150);
-    width: 100px;
-    height: 30px;
+    border: 2px solid #CFD4D8;
     border-radius: 5px;
-    text-align: center;
-    padding-top: 5px;
-}
-
-#task {
-    background-color: #47adf1;
-    color: white;
-}
-
-#section {
+    padding: 8px 16px;
     background-color: white;
-    color: rgb(150, 150, 150);
+    color: #CFD4D8;
+    font-weight: bold;
+}
+
+.btn1 {
+    background-color: #47adf1;
+    border-color: #47adf1;
+    color: white;
 }
 
 /* fine nav */
